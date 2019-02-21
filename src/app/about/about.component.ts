@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class AboutComponent implements OnInit {
 
-  private about = {};
+  about: any = {};
 
   constructor(private config: ConfigService) { }
 

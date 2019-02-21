@@ -6,7 +6,7 @@ import { configuration } from './configuration';
 })
 export class ConfigService {
 
-  private config = configuration;
+  config = configuration;
 
   constructor() { }
 

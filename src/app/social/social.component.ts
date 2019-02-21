@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class SocialComponent implements OnInit {
 
-  private socialsites = {};
+  socialsites = {};
 
   constructor(private config: ConfigService) { }
 

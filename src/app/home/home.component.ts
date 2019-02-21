@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class HomeComponent implements OnInit {
 
-  home = {};
+  home: any = {};
 
 
   constructor(private config: ConfigService) { }
