@@ -1,7 +1,7 @@
 export const configuration = {
     home: {
         heading: 'Ahsan Ijaz',
-        headingtext: 'Lead Full Stack Developer (Angular 7, Node, Rest API, Java Spring, .Net)',
+        headingtext: 'Lead Full Stack Developer (Angular 7, Node, Rest API, Java Spring, Hibernate, .Net)',
         description: "I developed this site using Angular 7 to start my own blog. I will keep improving the site and add more stuff!",
         buttontext: 'do some action',
         buttonlink: '\Home'
@@ -12,7 +12,7 @@ export const configuration = {
         description: 'I am a Lead Full Stack Developer at CIBC (Canada), with a Masters degree in Software Systems Engineering from University of Regina (Canada).',
         features: [
             { icon: 'mortar-board', title: 'Education', description: 'I have Masters degree in Software Engineering from University of Regina (Canada). I did my Bachelors in Computer Science from COMSATS University, Pakistan ' },
-            { icon: 'briefcase', title: 'Work History', description: 'I started my career as a Freenlance Developer in 2012. In 2015, I started working with Royal Bank of Canada as Full Stack Developer. Currently, I am working with CIBC as Lead Full Stack Developer in Toronto  ' },
+            { icon: 'briefcase', title: 'Work History', description: 'I started my career as a Freelance Developer in 2012. In 2015, I started working with Royal Bank of Canada as Full Stack Developer. Currently, I am working with CIBC as Lead Full Stack Developer in Toronto  ' },
             { icon: 'star', title: 'Hobbies', description: 'I am passionate about sports and travelling. I love playing Squash, Cricket, and Soccer. Other than that, I am passionate about technologies and in my leasure time I try to learn new technologies' },
             { icon: 'bar-chart', title: 'Career Goals', description: 'I want to grow in my career by taking little steps to get to the goal that I have set for myself ' }
         ]
