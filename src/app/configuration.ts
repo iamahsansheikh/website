@@ -1,7 +1,7 @@
 export const configuration = {
     home: {
         heading: 'Ahsan Ijaz',
-        headingtext: 'Lead Full Stack Developer (Angular 7, Node, Rest API, Java Spring, Hibernate, .Net)',
+        headingtext: 'Lead/Consultant - Java Full Stack Developer (Java Spring Boot, JavaScript, Angular 8, Node)',
         description: "I developed this site using Angular 7 to start my own blog. I will keep improving the site and add more stuff!",
         buttontext: 'do some action',
         buttonlink: '\Home'
@@ -9,12 +9,17 @@ export const configuration = {
     about: {
         tagline: 'Who Is Ahsan Ijaz',
         title: 'Background',
-        description: 'I am a Lead Full Stack Developer at CIBC (Canada), with a Masters degree in Software Systems Engineering from University of Regina (Canada).',
+        description: `I am a Lead/Consultant Java Full Stack Developer, with Masters degree in Software Systems Engineering from University of Regina (Canada).
+                        `,
+        
+        experience: `TechStack: Java Spring Boot, Angular 8, NodeJs, JavaScript, NgRx, Hibernate, JPA, OpenShift, Consul Registry,
+        Jenkins, Github, Rest API, Microservices, SQL Server, CSS, HTML, Bootstrap`,
+
         features: [
             { icon: 'mortar-board', title: 'Education', description: 'I have Masters degree in Software Engineering from University of Regina (Canada). I did my Bachelors in Computer Science from COMSATS University, Pakistan ' },
-            { icon: 'briefcase', title: 'Work History', description: 'I started my career as a Freelance Developer in 2012. In 2015, I started working with Royal Bank of Canada as Full Stack Developer. Currently, I am working with CIBC as Lead Full Stack Developer in Toronto  ' },
+            { icon: 'briefcase', title: 'Work History', description: 'I have more than 5 years of experience working in Financial Institutions. I have worked in CIBC and RBC and currently working in CITI Bank as Consultant - Java Full Stack Developer' },
             { icon: 'star', title: 'Hobbies', description: 'I am passionate about sports and travelling. I love playing Squash, Cricket, and Soccer. Other than that, I am passionate about technologies and in my leasure time I try to learn new technologies' },
-            { icon: 'bar-chart', title: 'Career Goals', description: 'I want to grow in my career by taking little steps to get to the goal that I have set for myself ' }
+            { icon: 'bar-chart', title: 'Career Goals', description: 'I am passionate about technologies, my aim is to learn new technologies and enhance my skill set ' }
         ]
     },
     services: {
@@ -35,11 +40,11 @@ export const configuration = {
     workhistory: {
         tagline: 'Work History',
         title: 'Companies I worked with',
-        description: 'I have worked in two major Financial Institutions of Canada. I started my career in Canada with Royal Bank of Canada. Currently, I am working with CIBC',
+        description: 'I have been working in major Financial Institutions of Canada. I am working in CITI Bank, previously I worked with CIBC and RBC in their Digital Teams',
         company: [
+            { name: 'CITI Bank', weblink: 'https://www.citigroup.com/canada/en/', logo: 'citibank-logo.png'},
             { name: 'CIBC', weblink: 'https://www.cibc.com/', logo: 'company-logo1.png' },
             { name: 'Royal Bank of Canada', weblink: 'https://www.rbcroyalbank.com/personal.html', logo: 'company-logo2.png' },
-            { name: 'Freelancer', weblink: 'company-logo3.png', logo: 'company-logo3.png' },
         ]
     },
     pricing: {
@@ -80,12 +85,12 @@ export const configuration = {
     footer: {
         copyrighttext: "Developed by ",
         developer: "Ahsan Ijaz",
-        developerlinkedin: "https://www.linkedin.com/in/ahsanshiekh"
+        developerlinkedin: "https://www.linkedin.com/in/iamahsanijaz/"
     },
     social: [
         { link: 'https://github.com/', target: '_blank', title: 'Instagram"', username: 'iamahsansheikh', icon: 'github' },
-        { link: 'https://www.linkedin.com/in/', target: '_blank', title: 'Linkedin', username: 'ahsanshiekh', icon: 'linkedin' },
-        { link: 'https://www.instagram.com/', target: '_blank', title: 'Instagram"', username: 'ahsanshiekh', icon: 'instagram' },
+        { link: 'https://www.linkedin.com/in/', target: '_blank', title: 'Linkedin', username: 'iamahsanijaz', icon: 'linkedin' },
+        { link: 'https://www.instagram.com/', target: '_blank', title: 'Instagram"', username: 'iamahsansheikh', icon: 'instagram' },
 
     ],
     blog: {
